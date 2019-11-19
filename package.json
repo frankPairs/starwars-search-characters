@@ -1,0 +1,17 @@
+{
+  "name": "starwars-search-characters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "npm i && lerna bootstrap",
+    "test": "lerna run test --parallel",
+    "dev": "lerna run dev --parallel",
+    "start": "lerna run start --parallel"
+  },
+  "author": "Frank Parejo",
+  "license": "ISC",
+  "dependencies": {
+    "lerna": "^3.18.4"
+  }
+}

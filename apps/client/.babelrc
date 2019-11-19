@@ -1,0 +1,62 @@
+{
+  "env": {
+    "development": {
+      "presets": [
+        "@babel/preset-react",
+        [
+          "@babel/env",
+          {
+            "targets": {
+              "browsers": ["last 2 versions"],
+              "esmodules": true
+            },
+            "debug": true
+          }
+        ]
+      ],
+      "plugins": [
+        "react-hot-loader/babel",
+        "@babel/plugin-syntax-dynamic-import",
+        "@babel/plugin-proposal-class-properties"
+      ]
+    },
+    "production": {
+      "presets": [
+        "@babel/preset-react",
+        [
+          "@babel/env",
+          {
+            "targets": {
+              "browsers": [
+                "last 2 versions",
+                "@babel/plugin-syntax-dynamic-import",
+                "@babel/plugin-proposal-class-properties"
+              ]
+            },
+            "debug": false
+          }
+        ]
+      ],
+      "plugins": [
+        "@babel/plugin-syntax-dynamic-import",
+        "@babel/plugin-proposal-class-properties"
+      ]
+    },
+    "test": {
+      "presets": [
+        "@babel/preset-react",
+        [
+          "@babel/env",
+          {
+            "modules": "commonjs",
+            "debug": false
+          }
+        ]
+      ],
+      "plugins": [
+        "@babel/plugin-syntax-dynamic-import",
+        "@babel/plugin-proposal-class-properties"
+      ]
+    }
+  }
+}

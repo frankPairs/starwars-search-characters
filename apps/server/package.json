@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Frank Parejo <francisco.parejo.lopez@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/index.js",
+  "scripts": {
+    "test:watch": "jest --watch --config jest.config.js",
+    "test": "jest --config jest.config.js",
+    "dev": "nodemon node src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "apollo-datasource-rest": "^0.6.6",
+    "apollo-server": "^2.9.7",
+    "dataloader": "^1.4.0",
+    "graphql": "^14.5.8",
+    "path-to-regexp": "^5.0.0",
+    "query-string": "^6.8.3",
+    "ramda": "^0.26.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "faker": "^4.1.0",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.4",
+    "prettier": "^1.19.1"
+  }
+}
