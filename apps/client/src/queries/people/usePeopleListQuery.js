@@ -1,6 +1,6 @@
 import { useQuery } from '@apollo/react-hooks';
 import gql from 'graphql-tag';
-import { pathOr, compose, curry } from 'ramda';
+import { pathOr } from 'ramda';
 
 import {
   PERSON_LIST_INFO_FRAGMENT,

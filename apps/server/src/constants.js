@@ -1,1 +1,1 @@
-exports.BASE_URL = 'https://swapi.co/api';
+exports.BASE_URL = 'http://swapi.dev/api';

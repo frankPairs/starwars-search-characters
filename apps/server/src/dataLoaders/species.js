@@ -1,4 +1,3 @@
-const { BASE_URL } = require('../constants');
 const dataSources = require('../dataSources');
 
 exports.getSpecies = speciesUrlList => {
