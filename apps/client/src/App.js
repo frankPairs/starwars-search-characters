@@ -5,7 +5,6 @@ import { ThemeProvider } from 'styled-components';
 
 import { graphqlClient } from './services';
 import { CharacterListView } from './views';
-import { getAllPeople } from './services';
 import { AppStyles } from './App.styles';
 import { GlobalStyles, theme } from './styles';
 import logoUrl from '../assets/images/logo-star-wars.png';

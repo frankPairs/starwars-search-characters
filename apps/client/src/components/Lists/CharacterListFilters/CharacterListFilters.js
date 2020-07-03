@@ -12,8 +12,6 @@ import { CharacterListFiltersStyles } from './CharacterListFilters.styles';
 function CharacterListFilters() {
   const {
     data: { people, films, species },
-    loading,
-    error,
   } = usePeopleListQuery();
 
   return (
